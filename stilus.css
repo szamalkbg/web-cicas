@@ -58,6 +58,9 @@ img {
 .blokk2 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 30px;
 }
 .blokk2 ul a {
     padding-left: 100px;
@@ -114,7 +117,7 @@ ul {
     text-align: left;
 }
 .eger img, .hal img {
-    max-width: 100px; /* A képek maximális szélességének beállítása */
-    display: block; /* A képek blokkként való megjelenítése, hogy a szöveg alá kerüljenek */
-    margin: 0 auto; /* Középre igazítás margin segítségével */
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
 }
