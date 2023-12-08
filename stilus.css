@@ -1,0 +1,120 @@
+html {
+    background-color: white;
+}
+
+body{
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    max-width: 640px;
+    background-color: black;
+}
+.blokk1 {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+}
+.link1 {
+    color: white;
+    background-color: darkorange;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px;
+}
+.link1:hover {
+    background-color: white;
+    color: black;
+}
+h1, h2 {
+    color: white;
+}
+p {
+    color: lightgrey;
+}
+.menu ul {
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.blokk2 {
+    background-color: black;
+    text-align: center;
+}
+.blokk2 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.blokk2 ul a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#link1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.blokk3 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.blokk3 h2 {
+    font-size: 20px;
+}
+ul {
+    color: lightgrey;
+}
+.blokk3 ul {
+    text-align: left;
+    column-count: 1;
+    display: block;
+}
+.keret {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    gap: 20px;
+}
+.keret img {
+    border-radius: 30px;
+}
+.blokk3 a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.blokk4 {
+    margin-bottom: 100px;
+}
+.blokk4 ul {
+    text-align: left;
+    column-count: 1;
+    display: block;
+}
+.blokk4 a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.eger, .hal{
+    vertical-align: top;
+    width: 20%;
+    text-align: left;
+}
+.eger img, .hal img {
+    max-width: 100px; /* A képek maximális szélességének beállítása */
+    display: block; /* A képek blokkként való megjelenítése, hogy a szöveg alá kerüljenek */
+    margin: 0 auto; /* Középre igazítás margin segítségével */
+}
